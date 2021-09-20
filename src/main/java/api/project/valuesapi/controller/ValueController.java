@@ -61,7 +61,7 @@ public class ValueController {
     public String deleteById(@PathVariable Long id) throws ValueNotFoundException {
         Value value = verifyExists(id);
         valueRepository.deleteById(value.getId());
-        return "Deletado: " + value.getValueName();
+        return "Deletado";
     }
 
     @PutMapping("/update/{id}")
