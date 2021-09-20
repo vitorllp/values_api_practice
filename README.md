@@ -1,3 +1,7 @@
 # values_api_practice
 
-Project about spring/APIRest for learning purposes
+Project about 
+  - Spring BOOT
+  - APIRest
+
+Just for learning purposes
